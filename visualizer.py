@@ -1,3 +1,4 @@
+#Kindly install tkinter module in order to use the gui form
 import tkinter as tk
 
 # Colors
@@ -15,8 +16,8 @@ class NQueensGUI:
         
         self.canvas = tk.Canvas(self.root, width=self.canvas_size, height=self.canvas_size)
         self.canvas.pack()
-        self.canvas.bind("<Button-1>", self.canvas_clicked)  # Bind left mouse click event
-        self.canvas.focus_set()  # Ensure canvas can receive keyboard events
+        self.canvas.bind("<Button-1>", self.canvas_clicked)  
+        self.canvas.focus_set()  
         
         self.next_button = tk.Button(self.root, text="Next", command=self.next_solution)
         self.next_button.pack(side=tk.LEFT, padx=10)
@@ -40,7 +41,6 @@ class NQueensGUI:
         self.draw_board()
         self.update_solution_counter()
     
-        # Bind arrow key events
         self.canvas.bind("<Left>", lambda event: self.previous_solution())
         self.canvas.bind("<Right>", lambda event: self.next_solution())
     
@@ -62,6 +62,7 @@ class NQueensGUI:
         
         self.solutions = list(solve(0))
     
+    #function to create the board
     def draw_board(self):
         self.canvas.delete("all")
         for i in range(self.n):
@@ -120,6 +121,7 @@ class NQueensGUI:
         # Allow clicking on the canvas to navigate between solutions
         self.next_solution()
 
+#Main function
 def main():
     while True:
         try:
