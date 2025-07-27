@@ -1,0 +1,6 @@
+address.city,address.state,address.street,address.zip,age,birthdate,department,email,hire_date,id,is_active,name,salary,skills,termination_date
+San Francisco,CA,123 Tech Street,94105,32,1991-07-15,Engineering,john.smith@example.com,2019-03-22,1,True,John Smith,85000.5,"[""Python"", ""JavaScript"", ""SQL""]",
+New York,NY,456 Market St,10001,28,1995-11-03,Marketing,emily.j@example.com,2020-06-15,2,True,Emily Johnson,92000.0,"[""Content Strategy"", ""SEO"", ""Social Media""]",
+Chicago,IL,789 Executive Blvd,60601,45,1978-02-28,Management,michael.b@example.com,2015-09-10,3,True,Michael Brown,110000.0,"[""Leadership"", ""Project Management"", ""Strategic Planning""]",
+Austin,TX,321 Creative Ave,73301,31,1992-09-18,Design,sarah.w@example.com,2021-01-05,4,True,Sarah Williams,78000.25,"[""UI/UX Design"", ""Figma"", ""Adobe Creative Suite""]",
+Seattle,WA,159 Developer Way,98101,26,1997-05-22,Engineering,david.k@example.com,2022-03-14,5,False,David Kim,68000.75,"[""Java"", ""Spring Boot"", ""Docker""]",2023-01-15
