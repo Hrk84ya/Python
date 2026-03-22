@@ -116,22 +116,3 @@ San Francisco,123 Tech Street,Engineering,john.smith@example.com,1,John Smith,["
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-
-## Examples
-
-1. Convert a JSON file to CSV with default settings:
-   ```bash
-   python converter.py data.json
-   ```
-   This will create `data.csv` in the same directory.
-
-2. Convert to TSV with a custom output filename:
-   ```bash
-   python converter.py data.json -f tsv -o results/data.tsv
-   ```
-
-3. Convert to Excel format:
-   ```bash
-   python converter.py data.json -f excel -o report.xlsx
-   ```
